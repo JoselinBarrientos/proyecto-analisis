@@ -85,7 +85,7 @@ function Dashboard() {
       color: "danger",
     },
     {
-      title: "838",
+      title: "3400",
       subtitle: "Ventas de mes",
       button: "Ir a ventas",
       color: "success",
