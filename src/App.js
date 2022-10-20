@@ -7,6 +7,11 @@ import Employees from "./pages/Employees";
 import Clients from "./pages/Clients";
 import Warehouse from "./pages/Warehouse";
 import Departments from "./pages/Departments";
+import Settings from "./pages/Settings";
+import Reports from "./pages/Reports";
+import Payroll from "./pages/Payroll";
+import Production from "./pages/Production";
+import Inventories from "./pages/Inventories";
 
 function App() {
   return (
@@ -23,6 +28,11 @@ function App() {
           <Route path="/clientes" element={<Clients></Clients>} />
           <Route path="/almacen" element={<Warehouse></Warehouse>} />
           <Route path="/departamentos" element={<Departments></Departments>} />
+          <Route path="/reportes" element={<Reports></Reports>} />
+          <Route path="/planilla" element={<Payroll></Payroll>} />
+          <Route path="/produccion" element={<Production></Production>} />
+          <Route path="/inventarios" element={<Inventories></Inventories>} />
+          <Route path="/configuracion" element={<Settings></Settings>} />
         </Routes>
       </div>
     </main>
